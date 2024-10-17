@@ -15,6 +15,7 @@ Nesta atividade, cada grupo será responsável por implementar um dos algoritmos
    - **É proibido o uso de Inteligência Artificial** (IA) para gerar ou ajudar na solução do código.
    - **É proibido consultar o algoritmo pronto na internet** ou copiar código de fontes externas. O objetivo é que vocês desenvolvam suas próprias soluções.
    - Consulte a seção **Comandos Permitidos** para saber o que pode ser utilizado.
+   - Para cada iteração, print a lista para que seja possível acompanhar a ordenação.
 
 3. **Fluxo de Trabalho Git/GitHub**:
    - Cada grupo deve clonar o repositório do projeto:  
