@@ -5,12 +5,8 @@ Nesta atividade, cada grupo será responsável por implementar um dos algoritmos
 
 ## Regras Gerais
 1. **Divisão de Grupos**: 
-   - A turma será dividida em 5 grupos, onde cada grupo ficará responsável por implementar um dos algoritmos de ordenação:
-     - Grupo 1: **Bubble Sort**
-     - Grupo 2: **Selection Sort**
-     - Grupo 3: **Insertion Sort**
-     - Grupo 4: **Merge Sort**
-     - Grupo 5: **Quick Sort**
+   - Cada grupo deverá criar uma branch para resolver o algoritmo abaixo:
+     - **Bubble Sort**
    
 2. **Implementação**:
    - Cada grupo deve implementar o algoritmo atribuído em Python.
@@ -25,11 +21,11 @@ Nesta atividade, cada grupo será responsável por implementar um dos algoritmos
      ```
      git clone https://github.com/ProfDudarts/ordenacao
      ```
-   - Crie uma nova branch com o nome do algoritmo que estão implementando. Exemplo para Bubble Sort:
+   - Crie uma nova branch com o prefixo `grupo_[00])_` e o nome do algoritmo que estão implementando. Exemplo para Bubble Sort:
      ```
-     git checkout -b bubble_sort
+     git checkout -b grupo_00_bubble_sort
      ```
-   - Após implementar o algoritmo, faça o commit das alterações:
+   - Após implementar o algoritmo, faça o commit das alterações, ou das correções, quando houver:
      ```
      git add .
      git commit -m "Implementação do Bubble Sort"
@@ -50,34 +46,19 @@ Nesta atividade, cada grupo será responsável por implementar um dos algoritmos
    - Se houver problemas, a equipe revisora deve solicitar ajustes e feedback ao grupo responsável pela implementação.
 
 5. **Comandos Permitidos**:
-   - **Controle de fluxo**: `if`, `for`, `while`, `else`, `elif`
+   - **Controle de fluxo**: `if`, `for`, `while`, `else`, `elif`,
    - **Manipulação básica de listas**: Acessar elementos diretamente (`arr[i]`), trocar valores entre elementos, etc.
-   - **Operadores do Python**
+   - **Operadores do Python e os comandos**: `range`, `print`, `len`
    - **Funções definidas pelo usuário**: `def`
    - **Manipulação de variáveis** e uso de listas auxiliares quando permitido.
 
 6. **Algoritmos e Regras Específicas**:
-   - Cada grupo deve implementar seu algoritmo conforme descrito abaixo:
+   - Cada grupo deve implementar o algoritmo conforme descrito abaixo:
    
    ### Bubble Sort
    - Implementar o algoritmo que ordena elementos através de trocas consecutivas de elementos adjacentes.
    - A ordenação deve ser feita diretamente na lista.
-
-   ### Selection Sort
-   - Implementar o algoritmo que seleciona o menor elemento de uma sublista e o troca com o primeiro elemento da sublista não ordenada.
-   - A ordenação deve ser feita diretamente na lista.
-
-   ### Insertion Sort
-   - Implementar o algoritmo que insere elementos na sublista já ordenada de forma sequencial.
-   - A ordenação deve ser feita diretamente na lista.
-
-   ### Merge Sort
-   - Implementar o algoritmo que divide a lista em metades, ordena cada metade e as mescla.
-   - É permitido usar **listas auxiliares** para realizar a mesclagem.
-
-   ### Quick Sort
-   - Implementar o algoritmo que escolhe um pivô e particiona a lista em torno do pivô.
-   - A ordenação deve ser feita diretamente na lista.
+   - Link de Referência: [Bublle Sort](https://www.youtube.com/watch?v=i2IKFmI_gyk)
 
 ## Instruções para Revisão de Pull Request
 - Após o Pull Request ser aberto por um grupo, outro grupo será designado para revisar o código.
@@ -94,5 +75,6 @@ Nesta atividade, cada grupo será responsável por implementar um dos algoritmos
    - Lógica de programação.
    - Colaboração em equipe.
    - Uso de Git e GitHub para trabalho colaborativo.
+5. A primeira implementação correta será mergeada com a branch main.
 
 Bom trabalho!

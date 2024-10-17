@@ -14,19 +14,3 @@ for lista in listas:
     lista_copiada = lista["original"].copy()
     bubble_sort(lista_copiada)
     assert lista_copiada == lista["ordenada"]
-
-    lista_copiada = lista["original"].copy()
-    selection_sort(lista_copiada)
-    assert lista_copiada == lista["ordenada"]
-
-    lista_copiada = lista["original"].copy()
-    insertion_sort(lista_copiada)
-    assert lista_copiada == lista["ordenada"]
-
-    lista_copiada = lista["original"].copy()
-    merge_sort(lista_copiada)
-    assert lista_copiada == lista["ordenada"]
-
-    lista_copiada = lista["original"].copy()
-    quick_sort(lista_copiada, 0, len(lista_copiada) - 1)
-    assert lista_copiada == lista["ordenada"]
