@@ -1,7 +1,13 @@
 
 def bubble_sort(lista: list) -> None:
-    for i in range(len(list)):
-    for j in range(len(list)-1):
-      if list[j] > list[j+1]:
-        list[j], list[j+1] = list[j+1], list[j]
-    return list
+    tamanho = len(lista)
+
+    for i in range(tamanho):
+        verificador = False
+        for j in range(tamanho-1):
+            if lista[j] > lista[j+1]:
+                verificador = True
+                if verificador ==True:
+                    lista[j], lista[j+1] = lista[j+1], lista[j]
+                else:
+                    pass
